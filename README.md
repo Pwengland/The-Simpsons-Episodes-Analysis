@@ -11,23 +11,15 @@ Using Python, I collected, cleaned and combined data from multiple sources to in
 4. Which directors have the highest IMDb ratings/viewerships?
 5. Do highly-rated episodes also have high viewing figures and IMDb user engagement?
 
-## Data Sources
-The project uses data collected from the following sources:
-- **Wikipedia**: episode information including titles, episode numbers, writers, directors, release dates, and U.S. viewing figures.
-- **IMDb**: episode user ratings and number of votes.
-
-## Data Cleaning and Preparation
-The original datasets required several cleaning and preparation steps before an analysis could be performed.
-
-These included:
+## Process
+Data cleaning:
 - Combining episode tables from multiple seasons into a single Pandas DataFrame.
 - Standardising column names and data types.
 - Removing Wikipedia annotations and other unwanted text.
 - Handling missing values and inconsistencies.
 - Combining the IMDb user rating and number of votes data with the episode data.
 
-## Exploratory Data Analysis
-The analysis uses various tools to investigate trends and relationships in the data such as:
+Exploratory data analysis and visualisations investigating:
 - U.S. viewership over time
 - IMDb rating over time
 - The most prolific and highly-rated writers
@@ -48,3 +40,8 @@ The analysis uses various tools to investigate trends and relationships in the d
 - Numpy
 - Seaborn
 - Jupyter Notebook
+
+## Data Sources
+The project uses data collected from the following sources:
+- **Wikipedia**: episode information including titles, episode numbers, writers, directors, release dates, and U.S. viewing figures.
+- **IMDb**: episode user ratings and number of votes
